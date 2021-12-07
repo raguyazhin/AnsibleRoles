@@ -1,5 +1,5 @@
 - name: Playbook
-  hosts: 34.230.71.163
+  hosts: webservers
   become: yes
   tasks:
     - name: ensure apache is at the latest version
