@@ -1,6 +1,7 @@
 - name: Playbook
   hosts: 34.230.71.163
   become: yes
+  become_user: ec2-user
   tasks:
     - name: ensure apache is at the latest version
       yum:
